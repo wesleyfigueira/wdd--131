@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter",sans-serif;
+    
+}
+header{
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar{
+    padding: 1.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    display: none;
+}
+.mobile-menu-icon button{
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+
+.open{
+    display: block;
+}
