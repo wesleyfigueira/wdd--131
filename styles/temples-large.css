@@ -9,6 +9,14 @@ header{
     background-color: #24252a;
     box-shadow: 0px 3px 10px #464646;
 }
+
+main { 
+    max-width: 1800px;
+    margin: 2rem ;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+  }
 .logo{
     display: flex;
     align-items: center;
@@ -31,6 +39,14 @@ header{
 .nav-item{
     margin: 0 15px;
 }
+
+a:hover{
+    color: rgb(91, 91, 144);
+
+}
+.templeName:hover{
+    color: rgb(91, 91, 144);
+}
 .nav-link{
     text-decoration: none;
     font-size: 1.15rem;
@@ -40,4 +56,14 @@ header{
 
 .mobile-menu-icon{
     display: none;
+}
+
+footer{
+    background-color: rgb(91, 91, 144);
+    padding: 40px;
+    color: white;
+}
+footer p{
+    margin-bottom: 10px;
+    text-align: center;
 }

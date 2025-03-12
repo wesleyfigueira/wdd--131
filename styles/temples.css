@@ -36,3 +36,25 @@ cursor: pointer;
 .open{
     display: block;
 }
+
+footer{
+    background-color: rgb(26, 26, 75);
+    padding: 40px;
+    color: white;
+}
+footer p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+main { 
+
+    margin: 2rem ;
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+  }
+
+
+
