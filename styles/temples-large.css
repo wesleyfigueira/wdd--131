@@ -6,38 +6,57 @@
     font-family: "Inter",sans-serif;
 }
 header{
-    background-color: #24252a;
-    box-shadow: 0px 3px 10px #464646;
+    background-color:black;
+    display: flex;
+    padding: 1rem;
+    
+    
 }
 
-main { 
-    max-width: 1800px;
-    margin: 2rem ;
-    display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 5px;
-  }
 .logo{
-    display: flex;
-    align-items: center;
-    color: #fff;
+    color: white;
+    padding-right: 5rem;
 }
-.nav-bar{
+
+li{
+    padding-right: 10rem;
+}
+.navbar {
+    display: flex;
+    align-content: space-around;
+    padding: 15px;
+    background: black;
+    position: relative;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none; 
+}
+
+.menu-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.nav-list {
+    list-style: none;
     display: flex;
     justify-content: space-between;
-    padding:1.5rem 4rem;
+    gap: 20px;
 }
-.nav-list{
+
+.nav-list  {
     display: flex;
-    align-items: center;
+    justify-content: space-between;  
+    
 }
-.nav-list ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-.nav-item{
-    margin: 0 15px;
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
 }
 
 a:hover{
@@ -59,11 +78,30 @@ a:hover{
 }
 
 footer{
-    background-color: rgb(91, 91, 144);
+    background-color:black;
     padding: 40px;
     color: white;
 }
 footer p{
     margin-bottom: 10px;
     text-align: center;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    width: 100%; 
+    max-width: 300px; 
 }

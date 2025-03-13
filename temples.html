@@ -7,32 +7,28 @@
     <meta name="author" content="Wesley Figueira" />
     <meta name="description" content=" responsive page of temples for week two" />
     <title>Temples</title>
-    <link rel="stylesheet" media="screen and (max-width: 700px)"  href="styles/temples.css">
-    <link rel="stylesheet" media="screen and (min-width: 699px)"  href="styles/temples-large.css">
+    <link rel="stylesheet" media="screen and (max-width: 551px)"  href="styles/temples.css">
+    <link rel="stylesheet" media="screen and (min-width: 550px)"  href="styles/temples-large.css">
 
 </head>
 
 <body>
     <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <h1 class="templeName">Temple Album</h1>
-            </div>
 
-            <div class="nav-list">
+        <div class="logo">
+            <h1 class="templeName">Temple Album</h1>
+        </div>
+        <nav class="navbar">
 
-                <ul>
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Old</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">New</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Large</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Small</a></li>
-                </ul>
-            </div>
-            <div class="mobile-menu-icon">
-                <button onclick="showMenu()"><img class="icon" src="images/menu_white_36dp.svg"></button>
-            </div>
-
+            <button class="menu-button" onclick="toggleMenu()">
+                <img src="images/menu_white_36dp.svg" alt="Menu" class="menu-icon">
+            </button>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
